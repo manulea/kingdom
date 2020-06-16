@@ -1,0 +1,128 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.headerf {
+	width: 100%;
+	height: 10%;
+	background-color: gainsboro;
+	color: black;
+}
+
+.footerf {
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	left: 0;
+	bottom: 0;
+	background-color: pink;
+	color: black;
+}
+
+.showcase{
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	// margin-left: 10%;
+	margin-right: 10%;
+	bottom: 18%;
+	// background-color: gainsboro;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	// border-bottom: 1px solid black;
+}
+
+.showcase a {
+	text-decoration: none;
+	padding-left: 96px;
+	padding-right: 96px;
+	color: black;
+	// border-bottom: 1px solid black;
+	font-size: 14px;
+}
+
+.showcase a:hover {
+	color: yellowgreen;
+	border-bottom: 1px solid yellowgreen;
+	font-size: 18px;
+	font-style: bold;
+}
+
+.website-margins {
+	padding: 10px;
+	color: pink;
+	position: absolute;
+	
+	top: 33%;
+	left: 45%;
+	right: 45%;
+}
+
+.square-top {
+	position: fixed;
+	height: 150px;
+	width: 150px;
+	
+	background-color: transparent;
+	border: 3px solid pink;
+	
+    transition-property: height;
+    transition-duration: 0.9s;
+}
+
+.square-top:hover {
+	background-color: pink;
+	height: 303px;
+}
+
+.square-top:active {
+	background-color: greenyellow;
+}
+
+.square-left {
+	position: absolute;
+
+	bottom: -299;
+	left: -143;
+	
+	height: 150;
+	width: 150;
+	
+	background-color: transparent;
+	border: 3px solid pink;
+	
+	transition-property: height;
+    transition-duration: 0.9s;
+}
+.square-left:hover {
+	background-color: pink;
+	height: 303px;
+}
+.square-left:active {
+	background-color: greenyellow;
+}
+
+.square-right { 
+	position: absolute;
+	
+	bottom: -299;
+	left: 163;
+	
+	height: 150;
+	width: 150;
+	background-color: transparent;
+	border: 3px solid pink;
+	
+	transition-property: height;
+    transition-duration: 0.9s;
+}
+
+.square-right:hover {
+	background-color: pink;
+	height: 303px;
+}
+.square-right:active {
+	background-color: greenyellow;
+}
